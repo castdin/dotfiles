@@ -1,0 +1,7 @@
+[user]
+	name = Caleb St-Denis
+	email = caleb.stdenis@gmail.com
+[gpg]
+	format = ssh
+[init]
+	defaultBranch = trunk
