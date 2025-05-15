@@ -8,3 +8,6 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Fuck
 eval $(thefuck --alias)
+
+# Terraform
+alias tf='terraform'
