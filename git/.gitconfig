@@ -1,6 +1,8 @@
 [user]
 	name = Caleb St-Denis
 	email = iocalebst@gmail.com
+[core]
+	pager = less -+$LESS -RS # enables Mac trackpad scrolling
 [gpg]
 	format = ssh
 [init]
