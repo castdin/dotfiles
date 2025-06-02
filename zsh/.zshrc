@@ -1,3 +1,5 @@
+source "$HOME/.zsecrets"
+
 # brew
 export PATH="/opt/homebrew/bin:$PATH"
 
