@@ -7,7 +7,7 @@ export PATH="/opt/homebrew/bin:$PATH"
 eval $(thefuck --alias)
 
 # pnpm
-alias pm='pnpm'
+alias p='pnpm'
 export PNPM_HOME="/Users/c/Library/pnpm"
 case ":$PATH:" in
 *":$PNPM_HOME:"*) ;;
