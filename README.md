@@ -11,3 +11,4 @@ If you are a budding software developer, you should consider making one too! A t
 1. `stow -t ~ git`
 1. `stow -t ~ zsh`
 1. `stow -t ~/Library/Application\ Support/Code/User code`
+1. `stow -t ~/Library/Application\ Support/Cursor/User cursor`
