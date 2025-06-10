@@ -1,0 +1,6 @@
+[
+  {
+    "key": "shift+cmd+k",
+    "command": "-aipopup.action.modal.generate"
+  }
+]
