@@ -18,5 +18,8 @@ case ":$PATH:" in
 *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 
+# python
+export PATH="$(brew --prefix python)/libexec/bin:$PATH"
+
 # terraform
 alias tf='terraform'
