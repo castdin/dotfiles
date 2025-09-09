@@ -4,6 +4,9 @@ export PATH="$PATH:/Users/c/.local/bin"
 # brew
 export PATH="/opt/homebrew/bin:$PATH"
 
+# direnv
+eval "$(direnv hook zsh)"
+
 # fuck
 eval $(thefuck --alias)
 
