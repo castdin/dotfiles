@@ -30,3 +30,8 @@ export PATH="$(brew --prefix python)/libexec/bin:$PATH"
 
 # terraform
 alias tf='terraform'
+
+# zsh-autosuggestions - https://github.com/zsh-users/zsh-autosuggestions
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+bindkey "^[[A" history-beginning-search-backward
+bindkey "^[[B" history-beginning-search-forward
