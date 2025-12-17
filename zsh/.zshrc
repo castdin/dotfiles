@@ -10,6 +10,9 @@ eval "$(direnv hook zsh)"
 # fuck
 eval $(thefuck --alias)
 
+# go
+export PATH="$HOME/go/bin:$PATH"
+
 # n - https://github.com/tj/n
 export N_PREFIX="$HOME/.local/n"
 export PATH="$N_PREFIX/bin:$PATH"
