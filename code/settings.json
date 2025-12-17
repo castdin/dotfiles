@@ -1,4 +1,5 @@
 {
+  "editor.minimap.enabled": false,
   "window.autoDetectColorScheme": true,
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
 }
