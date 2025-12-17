@@ -1,5 +1,6 @@
 {
   "editor.minimap.enabled": false,
+  "explorer.compactFolders": false,
   "window.autoDetectColorScheme": true,
   "workbench.startupEditor": "none",
 }
