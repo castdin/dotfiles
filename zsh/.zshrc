@@ -19,7 +19,7 @@ export PATH="$N_PREFIX/bin:$PATH"
 
 # pnpm
 alias p='pnpm'
-export PNPM_HOME="/Users/c/Library/pnpm"
+export PNPM_HOME="$HOME/Library/pnpm"
 case ":$PATH:" in
 *":$PNPM_HOME:"*) ;;
 *) export PATH="$PNPM_HOME:$PATH" ;;
@@ -27,6 +27,9 @@ esac
 
 # python
 export PATH="$(brew --prefix python)/libexec/bin:$PATH"
+
+# Rancher Desktop
+export PATH="$HOME/.rd/bin:$PATH"
 
 # terraform
 alias tf='terraform'
