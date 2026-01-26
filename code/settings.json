@@ -3,4 +3,5 @@
   "explorer.compactFolders": false,
   "window.autoDetectColorScheme": true,
   "workbench.startupEditor": "none",
+  "diffEditor.ignoreTrimWhitespace": false
 }
