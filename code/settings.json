@@ -1,7 +1,8 @@
 {
+  "diffEditor.ignoreTrimWhitespace": false,
   "editor.minimap.enabled": false,
   "explorer.compactFolders": false,
+  "go.toolsManagement.autoUpdate": true,
   "window.autoDetectColorScheme": true,
   "workbench.startupEditor": "none",
-  "diffEditor.ignoreTrimWhitespace": false
 }
