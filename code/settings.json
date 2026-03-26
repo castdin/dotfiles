@@ -4,5 +4,5 @@
   "explorer.compactFolders": false,
   "go.toolsManagement.autoUpdate": true,
   "window.autoDetectColorScheme": true,
-  "workbench.startupEditor": "none",
+  "workbench.startupEditor": "none"
 }
