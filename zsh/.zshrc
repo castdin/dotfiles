@@ -1,4 +1,3 @@
-source "$HOME/.zsecrets"
 export PATH="$PATH:/Users/c/.local/bin"
 
 # brew
