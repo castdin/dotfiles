@@ -1,3 +1,4 @@
+alias la='ls -A1'
 export PATH="$PATH:/Users/c/.local/bin"
 
 # brew
