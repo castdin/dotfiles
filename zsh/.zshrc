@@ -42,5 +42,6 @@ bindkey "^[[B" history-beginning-search-forward
 export PATH="$PATH:/Users/c/.local/bin"
 export PS1='%# '
 hash -d dotfiles="$HOME/src/iocalebs/dotfiles"
+setopt auto_cd
 setopt extended_history
 setopt hist_ignore_space
