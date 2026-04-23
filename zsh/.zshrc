@@ -42,3 +42,4 @@ bindkey "^[[B" history-beginning-search-forward
 export PATH="$PATH:/Users/c/.local/bin"
 export PS1='%# '
 setopt extended_history
+setopt hist_ignore_space
