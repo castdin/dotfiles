@@ -1,8 +1,3 @@
-alias la='ls -A1'
-alias lsa='ls -A1' # not yet sure which one I prefer - experimenting with both for now
-
-export PATH="$PATH:/Users/c/.local/bin"
-
 # brew
 export PATH="/opt/homebrew/bin:$PATH"
 
@@ -40,7 +35,8 @@ export PATH="$HOME/.rd/bin:$PATH"
 # terraform
 alias tf='terraform'
 
-# zsh-autosuggestions - https://github.com/zsh-users/zsh-autosuggestions
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+# zsh
+alias lsa='ls -A1'
 bindkey "^[[A" history-beginning-search-backward
 bindkey "^[[B" history-beginning-search-forward
+export PATH="$PATH:/Users/c/.local/bin"
