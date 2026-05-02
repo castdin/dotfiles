@@ -8,8 +8,8 @@ eval "$(direnv hook zsh)"
 eval $(thefuck --alias)
 
 # gcloud
-if [ -f '/Users/c/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/c/google-cloud-sdk/path.zsh.inc'; fi
-if [ -f '/Users/c/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/c/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f "$HOME/google-cloud-sdk/path.zsh.inc" ]; then . "$HOME/google-cloud-sdk/path.zsh.inc"; fi
+if [ -f "$HOME/google-cloud-sdk/completion.zsh.inc" ]; then . "$HOME/google-cloud-sdk/completion.zsh.inc"; fi
 
 # go
 export PATH="$HOME/go/bin:$PATH"
