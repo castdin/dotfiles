@@ -1,5 +1,9 @@
+alias lsa='ls -A1'
+export PATH="$PATH:/Users/c/.local/bin"
+
 # brew
 export PATH="/opt/homebrew/bin:$PATH"
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # direnv
 eval "$(direnv hook zsh)"
@@ -36,12 +40,10 @@ export PATH="$HOME/.rd/bin:$PATH"
 alias tf='terraform'
 
 # zsh
-alias lsa='ls -A1'
-bindkey "\e[A" history-beginning-search-backward
-bindkey "\e[B" history-beginning-search-forward
-export PATH="$PATH:/Users/c/.local/bin"
 export PS1='%# '
 hash -d dotfiles="$HOME/src/iocalebs/dotfiles"
+bindkey "\e[A" history-beginning-search-backward
+bindkey "\e[B" history-beginning-search-forward
 setopt auto_cd
 setopt extended_history
 setopt hist_ignore_space
