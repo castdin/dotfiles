@@ -18,7 +18,7 @@ if [ -f "$HOME/google-cloud-sdk/completion.zsh.inc" ]; then . "$HOME/google-clou
 export PATH="$HOME/go/bin:$PATH"
 
 # ls
-alias ls='ls -1'
+alias ls='ls -1FG'
 
 # n - https://github.com/tj/n
 export N_PREFIX="$HOME/.local/n"
