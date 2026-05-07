@@ -1,5 +1,3 @@
-alias lsa='ls -A1'
-alias lsr='ls -R1'
 export PATH="$PATH:/Users/c/.local/bin"
 
 # brew
@@ -18,6 +16,9 @@ if [ -f "$HOME/google-cloud-sdk/completion.zsh.inc" ]; then . "$HOME/google-clou
 
 # go
 export PATH="$HOME/go/bin:$PATH"
+
+# ls
+alias ls='ls -1'
 
 # n - https://github.com/tj/n
 export N_PREFIX="$HOME/.local/n"
