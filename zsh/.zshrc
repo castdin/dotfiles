@@ -4,6 +4,11 @@ export PATH="$PATH:/Users/c/.local/bin"
 export PATH="/opt/homebrew/bin:$PATH"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+# diff
+diff() {
+  command diff -u --color=always "$@"
+}
+
 # direnv
 eval "$(direnv hook zsh)"
 
