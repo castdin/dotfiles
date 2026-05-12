@@ -1,0 +1,3 @@
+.git
+vscode # stow -t "~/Library/Application Support/Code/User" vscode
+README.md
