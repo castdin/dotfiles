@@ -1,8 +1,6 @@
 [user]
 	name = Caleb St-Denis
 	email = iocalebst@gmail.com
-[core]
-	excludesFile = ~/.gitignore_global
 [gpg]
 	format = ssh
 [init]
