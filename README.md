@@ -3,7 +3,7 @@ User settings symlinked to my home directory using [Stow](https://www.gnu.org/so
 
 ## Usage
 ```sh
-stow -t ~ .
+stow --adopt --target ~ .
 ```
 
 ## See Also
